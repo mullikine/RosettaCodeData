@@ -27,15 +27,19 @@ so an answer of 12+12 when given 1, 2, 2, and 1 would not be allowed.
 # Check whether we've got a legal answer
 proc check {answer digits} {
     if {
-	[regexp "\[^-+*/() \t[join $digits {}]\]" $answer]
-	|| [regexp {\d\d} $answer]
+        [regexp "\[^-+*/() \t[join $digits {}]\]" $answer] || [regexp {\d\d} $answer]
+
     } then {
-	return false
+        return false
     }
+
     set digs [lsort [regexp -inline -all {\d} $answer]]
+
     if {$digs ne $digits} {
-	return false
+        return false
+
     }
+
     expr {![catch {expr $answer}]}
 }
 
@@ -46,29 +50,33 @@ proc main {} {
     set digits [choose4]
     welcome $digits
     set trial 0
+
     while true {
-	puts -nonewline "Expression [incr trial]: "
-	gets stdin answer
+        puts -nonewline "Expression [incr trial]: "
+        gets stdin answer
 
-        # Check for various types of non-answer
-	if {[eof stdin] || $answer eq "q" || $answer eq "Q"} {
-	    break
-	} elseif {$answer eq "!"} {
-	    set digits [choose4]
-	    puts "New digits: $digits"
-	    continue
-	} elseif {![check $answer $digits]} {
-	    puts "The input '$answer' was wonky!"
-            continue
-	}
-
-        # Check to see if it is the right answer
-	set ans [expr [regsub {\d} $answer {&.0}]]
-	puts " = [string trimright $ans .0]"
-	if {$ans == 24.0} {
-	    puts "That's right!"
+            # Check for various types of non-answer
+        if {[eof stdin] || $answer eq "q" || $answer eq "Q"} {
             break
-	}
+
+        } elseif {$answer eq "!"} {
+            set digits [choose4]
+            puts "New digits: $digits"
+            continue
+
+        } elseif {![check $answer $digits]} {
+            puts "The input '$answer' was wonky!"
+            continue
+        }
+
+            # Check to see if it is the right answer
+        set ans [expr [regsub {\d} $answer {&.0}]]
+        puts " = [string trimright $ans .0]"
+
+        if {$ans == 24.0} {
+            puts "That's right!"
+            break
+        }
     }
     puts "Thank you and goodbye"
 }
