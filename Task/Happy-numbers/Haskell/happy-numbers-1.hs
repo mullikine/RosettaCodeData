@@ -10,4 +10,5 @@ isHappy = p empty
       | otherwise = p (insert n s) (f n)
     f = sum . (((^ 2) . toInteger . digitToInt) <$>) . show
 
+main :: IO ()
 main = mapM_ print $ take 8 $ filter isHappy [1 ..]

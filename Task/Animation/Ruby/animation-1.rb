@@ -1,4 +1,6 @@
+#!/usr/bin/ruby
 require 'tk'
+
 $str = TkVariable.new("Hello World! ")
 $dir = :right
 
