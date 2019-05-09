@@ -1,3 +1,6 @@
+#!/usr/local/racket/bin/racket
+#lang racket
+
 (define sublists
   (match-lambda**
    [(0 _)           '(())]

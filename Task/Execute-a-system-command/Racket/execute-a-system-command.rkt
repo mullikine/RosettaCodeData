@@ -4,6 +4,7 @@
 (system "ls")
 
 ;; capture output
+;; By default output goes to the repl and the function returns a boolean
 (string-split (with-output-to-string (λ() (system "ls"))) "\n")
 
 ;; Warning: passing random string to be run in a shell is a bad idea!
