@@ -1,4 +1,6 @@
-import Data.Functor
+#!/home/shane/scripts/runhaskell
+
+-- import Data.Functor
 import Text.Parsec ((<|>), (<?>), many, many1, char, try, parse, sepBy, choice, between)
 import Text.Parsec.Char (noneOf)
 import Text.Parsec.Token (integer, float, whiteSpace, stringLiteral, makeTokenParser)
