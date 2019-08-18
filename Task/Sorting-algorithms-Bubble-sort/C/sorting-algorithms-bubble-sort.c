@@ -7,20 +7,41 @@
 
 /* array[element] = rand() % 100 + 1 */
 
+void swap(int*, int*);
+
 void bubble_sort(int * a, int n) {
+     // s -- continue boolean
+     // j -- a window that shrinks from the array size down to 1. when it reaches 1, the array is sorted
+     // i -- counts up to the current window size
+     // t -- the swap placeholder
      int i, t, j = n, s = 1;
      while (s) {
           s = 0;
           for (i = 1; i < j; i++) {
                if (a[i] < a[i - 1]) {
-                    t = a[i];
-                    a[i] = a[i - 1];
-                    a[i - 1] = t;
+                    /* t = a[i]; */
+                    /* a[i] = a[i - 1]; */
+                    /* a[i - 1] = t; */
+
+                    swap(&a[i], &a[i - 1]);
+
+                    // If a swap has taken place in the window then we should run the bubble sort again just in case there is another to be sorted
                     s = 1;
                }
+               // The value at the top of the window is now the greatest
           }
           j--;
      }
+}
+
+//Swap function definition
+void swap(int *a, int *b)
+{
+     int t;
+
+     t  = *b;
+     *b = *a;
+     *a = t;
 }
 
 int main() {
