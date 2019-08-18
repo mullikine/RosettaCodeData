@@ -15,9 +15,13 @@ void bubble_sort(int * a, int n) {
      // i -- counts up to the current window size
      // t -- the swap placeholder
      int i, t, j = n, s = 1;
+     // while maybe needs sorting
      while (s) {
           s = 0;
+
+          // for up to window height
           for (i = 1; i < j; i++) {
+               // Comparison
                if (a[i] < a[i - 1]) {
                     /* t = a[i]; */
                     /* a[i] = a[i - 1]; */
@@ -35,8 +39,7 @@ void bubble_sort(int * a, int n) {
 }
 
 //Swap function definition
-void swap(int *a, int *b)
-{
+void swap(int *a, int *b) {
      int t;
 
      t  = *b;
