@@ -1,11 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>  // rand(), srand()
 #include <math.h>
+#include <time.h>    // time()
 
 double pi(double tolerance)
 {
 	double x, y, val, error;
 	unsigned long sampled = 0, hit = 0, i;
+        srand(time(NULL));
 
 	do {
 		/* don't check error every turn, make loop tight */
