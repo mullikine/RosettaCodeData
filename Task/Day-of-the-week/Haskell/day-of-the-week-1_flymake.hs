@@ -2,9 +2,6 @@ import Data.Time (fromGregorian)
 
 import Data.Time.Calendar.WeekDate (toWeekDate)
 
-
-import Data.Time.Calendar.Month (toMonth)
-
 isXmasSunday :: Integer -> Bool
 isXmasSunday year =
   let (_, _, wday) = toWeekDate $ fromGregorian year 12 25
