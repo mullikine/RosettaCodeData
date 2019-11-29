@@ -1,0 +1,70 @@
+
+./fibonacci-sequence-17.hs,9
+f f0,1
+
+./fibonacci-sequence-1.hs,15
+main main0,1
+
+./fibonacci-sequence-3.hs,13
+fib fib0,1
+
+./fibonacci-sequence-11.hs,13
+fib fib0,1
+
+./fibonacci-sequence-9.hs,13
+fib fib0,1
+
+./fibonacci-sequence-6.hs,13
+fib fib2,3
+
+./fibonacci-sequence-10.hs,13
+fib fib0,1
+
+./fibonacci-sequence-12.hs,13
+fib fib0,1
+
+./fibonacci-sequence-7.hs,13
+fib fib2,3
+
+./fibonacci-sequence-8.hs,13
+fib fib0,1
+
+./fibonacci-sequence-13.hs,13
+fib fib2,3
+
+./fibonacci-sequence-15.hs,105
+fibstep fibstep2,3
+fibnums fibnums5,6
+fibN2 fibN28,9
+fibN2_next fibN2_next15,16
+main main33,34
+
+./fibonacci-sequence-18.hs,9
+g g0,1
+
+./fibonacci-sequence-16.hs,0
+
+./fibonacci-sequence-2.hs,13
+fib fib0,1
+
+./fibonacci-sequence-14.hs,321
+fib fib5,6
+(<(<+>)13,14
+(<(<*>)18,19
+newtype Mat Mat20,21
+  { unMat unMat21,22
+instance Show Show a => Show (Mat a)24,25
+  show show26,27
+instance Num Num a => Num (Mat a)28,29
+  negate negate30,31
+  xm xm31,32
+  fromInteger fromInteger37,38
+  abs abs38,39
+  signum signum39,40
+main main42,43
+
+./fibonacci-sequence-4.hs,13
+fib fib1,2
+
+./fibonacci-sequence-5.hs,13
+fib fib1,2
