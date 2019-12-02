@@ -1,11 +1,9 @@
-import Data.List (transpose)
+import           Data.List (transpose)
 
-fib
-  :: (Integral b, Num a)
-  => b -> a
+fib :: (Integral b, Num a) => b -> a
 fib 0 = 0 -- this line is necessary because "something ^ 0" returns "fromInteger 1", which unfortunately
 -- in our case is not our multiplicative identity (the identity matrix) but just a 1x1 matrix of 1
-fib n = (last . head . unMat) (Mat [[1, 1], [1, 0]] ^ n)
+fib n = (last . head . unMat) (MkMat [[1, 1], [1, 0]] ^ n)
 
 -- Code adapted from Matrix exponentiation operator task ---------------------
 (<+>)
@@ -18,7 +16,7 @@ fib n = (last . head . unMat) (Mat [[1, 1], [1, 0]] ^ n)
   => [a] -> [a] -> a
 (<*>) = (sum .) . zipWith (*)
 
-newtype Mat a = Mat
+newtype Mat a = MkMat
   { unMat :: [[a]]
   } deriving (Eq)
 
@@ -28,14 +26,14 @@ instance Show a =>
 
 instance Num a =>
          Num (Mat a) where
-  negate xm = Mat $ map (map negate) $ unMat xm
-  xm + ym = Mat $ zipWith (<+>) (unMat xm) (unMat ym)
+  negate xm = MkMat $ map (map negate) $ unMat xm
+  xm + ym = MkMat $ zipWith (<+>) (unMat xm) (unMat ym)
   xm * ym =
-    Mat
+    MkMat
       [ [ xs Main.<*> ys -- to distinguish from standard applicative operator
         | ys <- transpose $ unMat ym ]
       | xs <- unMat xm ]
-  fromInteger n = Mat [[fromInteger n]]
+  fromInteger n = MkMat [[fromInteger n]]
   abs = undefined
   signum = undefined
 
