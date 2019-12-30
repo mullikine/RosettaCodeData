@@ -1,0 +1,40 @@
+[18:21:38.526] Global cache location '/home/shane/.cache/typescript/3.3', safe file path '/home/shane/node_modules/typescript/lib/typingSafeList.json', types map path /home/shane/node_modules/typescript/lib/typesMap.json
+[18:21:38.528] Processing cache location '/home/shane/.cache/typescript/3.3'
+[18:21:38.528] Trying to find '/home/shane/.cache/typescript/3.3/package.json'...
+[18:21:38.529] Loaded content of '/home/shane/.cache/typescript/3.3/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.471"},"devDependencies":{"@types/async":"^3.0.3","@types/atob":"^2.1.2","@types/isexe":"^2.0.0","@types/karma":"^3.0.4","@types/karma-coverage-istanbul-reporter":"^2.1.0","@types/karma-jasmine":"0.0.31","@types/less":"^3.0.1","@types/sprintf":"^0.1.0","@types/underscore":"^1.9.4","@types/which":"^1.3.2"}}
+[18:21:38.529] Loaded content of '/home/shane/.cache/typescript/3.3/package-lock.json'
+[18:21:38.542] Adding entry into typings cache: 'async' => '/home/shane/.cache/typescript/3.3/node_modules/@types/async/index.d.ts'
+[18:21:38.544] Adding entry into typings cache: 'atob' => '/home/shane/.cache/typescript/3.3/node_modules/@types/atob/index.d.ts'
+[18:21:38.546] Adding entry into typings cache: 'isexe' => '/home/shane/.cache/typescript/3.3/node_modules/@types/isexe/index.d.ts'
+[18:21:38.549] Adding entry into typings cache: 'karma' => '/home/shane/.cache/typescript/3.3/node_modules/@types/karma/index.d.ts'
+[18:21:38.550] Adding entry into typings cache: 'karma-coverage-istanbul-reporter' => '/home/shane/.cache/typescript/3.3/node_modules/@types/karma-coverage-istanbul-reporter/index.d.ts'
+[18:21:38.552] Adding entry into typings cache: 'karma-jasmine' => '/home/shane/.cache/typescript/3.3/node_modules/@types/karma-jasmine/index.d.ts'
+[18:21:38.555] Adding entry into typings cache: 'less' => '/home/shane/.cache/typescript/3.3/node_modules/@types/less/index.d.ts'
+[18:21:38.556] Adding entry into typings cache: 'sprintf' => '/home/shane/.cache/typescript/3.3/node_modules/@types/sprintf/index.d.ts'
+[18:21:38.558] Adding entry into typings cache: 'underscore' => '/home/shane/.cache/typescript/3.3/node_modules/@types/underscore/index.d.ts'
+[18:21:38.560] Adding entry into typings cache: 'which' => '/home/shane/.cache/typescript/3.3/node_modules/@types/which/index.d.ts'
+[18:21:38.560] Finished processing cache location '/home/shane/.cache/typescript/3.3'
+[18:21:38.560] Process id: 13641
+[18:21:38.560] NPM location: "/usr/local/n/versions/node/10.10.0/bin/npm" (explicit '--npmLocation' not  provided)
+[18:21:38.560] Npm config file: /home/shane/.cache/typescript/3.3/package.json
+[18:21:38.560] Updating types-registry npm package...
+[18:21:38.560] Exec: "/usr/local/n/versions/node/10.10.0/bin/npm" install --ignore-scripts types-registry@latest
+[18:21:40.446]     Succeeded. stdout:
+    + types-registry@0.1.471
+    updated 1 package and audited 33 packages in 1.485s
+found 0 vulnerabilities
+
+
+[18:21:40.446] Updated types-registry npm package
+[18:21:42.328] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/shane/node_modules/typescript/lib/lib.d.ts","/home/shane/node_modules/typescript/lib/lib.es5.d.ts","/home/shane/node_modules/typescript/lib/lib.dom.d.ts","/home/shane/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/shane/node_modules/typescript/lib/lib.scripthost.d.ts","/home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/aks-test-for-primes-3.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript","kind":"discover"}
+[18:21:42.340] Loaded safelist from types map file '/home/shane/node_modules/typescript/lib/typesMap.json'
+[18:21:42.340] Explicitly included types: []
+[18:21:42.341] Inferred typings from unresolved imports: []
+[18:21:42.341] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/bower_components","/home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/node_modules"]}
+[18:21:42.341] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/bower_components","/home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/node_modules"]}
+[18:21:42.342] DirectoryWatcher:: Added:: WatchInfo: /home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/bower_components
+[18:21:42.343] DirectoryWatcher:: Added:: WatchInfo: /home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/node_modules
+[18:21:42.343] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[18:21:42.344] Response has been sent.
+[18:21:42.344] No new typings were requested as a result of typings discovery

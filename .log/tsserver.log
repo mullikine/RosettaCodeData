@@ -1,0 +1,59 @@
+Info 0    [18:21:38.301] Starting TS Server
+Info 1    [18:21:38.302] Version: 3.3.3333
+Info 2    [18:21:38.302] Arguments: /usr/local/n/versions/node/10.10.0/bin/node /home/shane/node_modules/.bin/tsserver --logFile /home/shane/var/smulliga/source/git/acmeism/RosettaCodeData/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/c0e3908a73fd2e399cceafd991841964/tscancellation*
+Info 3    [18:21:38.302] Platform: linux NodeVersion: 10 CaseSensitive: true
+Info 4    [18:21:39.942] Search path: /home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript
+Info 5    [18:21:39.944] For info: /home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/aks-test-for-primes-3.js :: No config files found.
+Info 6    [18:21:39.948] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [18:21:42.224] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 2275ms
+Info 8    [18:21:42.348] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [18:21:42.355] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 6ms
+Info 10   [18:21:42.599] Structure before ensureProjectForOpenFiles:
+Info 11   [18:21:42.599] Structure after ensureProjectForOpenFiles:
+Info 12   [18:21:42.599] got projects updated in background, updating diagnostics for /home/shane/source/git/acmeism/RosettaCodeData/Task/AKS-test-for-primes/JavaScript/aks-test-for-primes-3.js
+Info 13   [18:21:44.499] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 14   [18:21:44.514] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 14ms
+Info 15   [18:21:44.679] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 16   [18:21:44.686] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 7ms
+Info 17   [18:21:44.759] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 18   [18:21:44.765] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 6ms
+Info 19   [18:21:44.810] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [18:21:44.816] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 6ms
+Info 21   [18:21:44.893] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 22   [18:21:44.899] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 6ms
+Info 23   [18:21:44.998] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 24   [18:21:45.3] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 5ms
+Info 25   [18:21:45.118] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [18:21:45.124] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 6ms
+Info 27   [18:21:45.150] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 28   [18:21:45.158] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false Elapsed: 8ms
+Info 29   [18:21:45.640] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 30   [18:21:45.648] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false Elapsed: 8ms
+Info 31   [18:21:45.764] getCompletionData: Get current token: 0
+Info 32   [18:21:45.764] getCompletionData: Is inside comment: 0
+Info 33   [18:21:45.764] getCompletionData: Get previous token 1: 0
+Info 34   [18:21:45.765] getCompletionsAtPosition: isCompletionListBlocker: 1
+Info 35   [18:21:45.765] getCompletionData: Semantic work: 0
+Info 36   [18:21:45.766] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 37   [18:21:45.906] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 38   [18:21:45.912] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false Elapsed: 6ms
+Info 39   [18:21:46.9] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 40   [18:21:46.15] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false Elapsed: 6ms
+Info 41   [18:21:46.127] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 42   [18:21:46.133] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false Elapsed: 6ms
+Info 43   [18:21:46.295] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 44   [18:21:46.301] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false Elapsed: 6ms
+Info 45   [18:21:46.415] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 46   [18:21:46.420] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false Elapsed: 5ms
+Info 47   [18:21:46.708] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 48   [18:21:46.715] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false Elapsed: 7ms
+Info 49   [18:21:46.833] getCompletionData: Get current token: 0
+Info 50   [18:21:46.834] getCompletionData: Is inside comment: 1
+Info 51   [18:21:46.834] getCompletionData: Get previous token 1: 0
+Info 52   [18:21:46.834] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 53   [18:21:46.834] getCompletionData: Semantic work: 0
+Info 54   [18:21:46.835] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 55   [18:21:52.583] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 56   [18:21:52.591] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false Elapsed: 8ms
+Info 57   [18:22:4.678] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 58   [18:22:4.691] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: false Elapsed: 13ms
